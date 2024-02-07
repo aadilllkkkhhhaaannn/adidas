@@ -1,0 +1,635 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: black;
+    text-align: center;
+    padding: 8px 0px;
+    font-size: 12.5px;
+    cursor: pointer;
+    color: white;
+    padding-top: 10.5px;
+    height: 40px;
+    width: 100%;
+}
+.shoes-part img:hover{
+    border: 1px solid black;
+}
+.navbar{
+    
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-left: 180px;
+    cursor: pointer;
+    font-size: 15px;
+    gap: 20px;
+    align-items: start;
+    
+}
+.navbar-1{
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    list-style: none;
+    font-size: 15px;
+    /* margin-left: 76%; */
+    /* margin-left: auto; */
+    justify-content: end;
+    margin-right: 50px;
+    padding-bottom: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.navbar button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-left: 30px;
+    display: flex;
+    padding-top: 7px;
+    padding-bottom: 20px;
+}
+.navbar button{
+    margin-left: 100px;
+}
+.navbar button i{
+    margin-top: 8px;
+}
+
+.img{
+    height: 100vh;
+    width: 50%;
+}
+/* -------------- */
+
+.mn-container{
+    background-image: url(./images/em_in_eoss_commercial_fw23_launch_mh_d_04fb7bd6a7.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.new_arrivals .btn_1 {
+    height: 50px;
+    width: 140px;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+  }
+  .new_arrivals .btn_2 {
+    height: 50px;
+    width: 140px;
+    cursor: pointer;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid black;
+    margin-top: 80px;
+  }
+  .new_arrivals .btn_2:hover{
+    background-color: black;
+    color: white;
+  }
+.navbar img{
+    height: 100px;
+    position: relative;
+    right: 200px;
+    bottom: 40px;
+}
+.navbar input{
+    border: none;
+    background-color: transparent;
+    
+}
+.mn-container h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 220px;
+}
+.mn-container h2{
+    color: white;
+    font-size: 20px;
+    padding-top: 8px;
+
+}
+.mn-container button:hover{
+    color: grey;
+}
+.mn-container button{
+    width: 12%;
+    height: 40px;
+    border-color: black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.mn-container {
+padding-left: 70px;
+}
+.mn-container i{
+    padding-left: 20px;
+}
+/* ---------------------------- */
+
+.hdr-part h1{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.hdr-part {
+    display: flex;
+    justify-content: start;
+}
+/* --------------------------- */
+
+.text-a img{
+    height: 380px;
+    width: 300px;
+}
+.text-b img{
+
+    height: 380px;
+    width: 300px;
+}
+.text-c img{
+
+    height: 380px;
+    width: 300px;
+}.text-d img{
+
+    height: 380px;
+    width: 300px;
+}
+/* --------------------------- */
+
+.img-part{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 10px;
+}
+/* --------------------------- */
+
+.text-a h1{
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+.text-b h1{
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+.text-c h1{
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+.text-d h1{
+    font-size: 17px;
+    margin-top: 20px;
+
+}
+/* --------------------------- */
+
+.text-a a{
+    position: relative;
+    top: 20px;
+
+    color: black;
+}
+.text-b a{
+    position: relative;
+    top: 20px;
+    color: black;
+}.text-c a{
+    position: relative;
+    top: 20px;
+    color: black;
+}.text-d a{
+    position: relative;
+    top: 20px;
+    color: black;
+}
+.text-a a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.text-b a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}.text-c a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}.text-d a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+/* --------------------------- */
+
+.s-part{
+    display: flex;
+    font-size: 20px;
+    gap: 240px;
+    margin-left: 60px;
+    margin-top: 50px;
+    font-weight: 900;
+}
+.text-part{
+    margin-left: 60px;
+    margin-top: 40px;
+    font-weight: 900;
+
+}
+.s-part-a{
+    display: flex;
+    font-size: 20px;
+    gap: 240px;
+    margin-left: 60px;
+    margin-top: 70px;
+    font-weight: 900;
+}
+.s-part-a h2{
+    font-size: 40px;
+    position: relative;
+    right: 45px;
+
+}
+.s-part-a h3{
+    font-size: 40px;
+    position: relative;
+    left: 70px;
+}
+.shopping{
+    margin-left: 50px;
+    margin-top: 80px;
+    font-size: 20px;
+}
+.s-img img{
+    height: 450px;
+    width: 400px;
+}
+.s-img-b img{
+    height: 450px;
+    width: 400px;
+}
+.s-img-c img{
+    height: 450px;
+    width: 400px;
+}
+.img-part-abc{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.img-part-abc h1{
+    font-size: 18px;
+    margin-top: 10px;
+    
+}
+.btn button{
+    width: 12%;
+    height: 40px;
+    border-color: black;
+    margin-left: 50px;
+}
+.shoes-part{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 30px;
+}
+.s-a img{
+    height: 300px;
+    width: 300px;
+}
+.s-b img{
+    height: 300px;
+    width: 300px;
+}.s-c img{
+    height: 300px;
+    width: 300px;
+}.s-d img{
+    height: 300px;
+    width: 300px;
+}
+.s-a h1{
+    font-size: 19px;
+    margin-top: 8px;
+}
+.s-a h2{
+    font-size: 19px;
+    margin-top: 5px;
+    color: gray;
+}
+.s-a h3{
+    font-size: 19px;
+    margin-top: 5px;
+}
+.s-b h1{
+    font-size: 19px;
+    margin-top: 8px;
+}
+.s-b h2{
+    font-size: 19px;
+    margin-top: 5px;
+    color: gray;
+}
+.s-b h3{
+    font-size: 19px;
+    margin-top: 5px;
+}
+.s-c h1{
+    font-size: 19px;
+    margin-top: 8px;
+}
+.s-c h2{
+    font-size: 19px;
+    margin-top: 5px;
+    color: gray;
+}
+.s-c h3{
+    font-size: 19px;
+    margin-top: 5px;
+}
+.s-d h1{
+    font-size: 19px;
+    margin-top: 8px;
+}
+.s-d h2{
+    font-size: 19px;
+    margin-top: 5px;
+    color: gray;
+}
+.s-d h3{
+    font-size: 19px;
+    margin-top: 5px;
+}
+.hdr-b{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+/* --------------------------- */
+
+.hot-part{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 40px;
+    gap: 10px;
+}
+.s-aa img{
+    height: 370px;
+    width: 300px;
+}
+.s-bb img{
+    height: 370px;
+    width: 300px;
+}.s-cc img{
+    height: 370px;
+    width: 300px;
+}.s-dd img{
+    height: 370px;
+    width: 300px;
+}
+/* --------------------------------- */
+.s-aa h1{
+    font-size: 19px;
+    margin-top: 8px;
+}
+.s-bb h1{
+    font-size: 19px;
+    margin-top: 8px;
+}.s-cc h1{
+    font-size: 19px;
+    margin-top: 8px;
+}.s-dd h1{
+    font-size: 19px;
+    margin-top: 8px;
+}
+.s-aa h2{
+    font-size: 12px;
+    margin-top: 8px;
+    color: grey;
+}
+.s-bb h2{
+    font-size: 12px;
+    color: grey;
+    margin-top: 8px;
+}.s-cc h2{
+    font-size: 12px;
+    color: grey;
+    margin-top: 8px;
+}.s-dd h2{
+    font-size: 12px;
+    margin-top: 8px;
+    color: grey;
+}
+.s-aa a{
+    color: black;
+    position: relative;
+     top: 20px;
+}
+.s-dd a{
+    color:  black;
+    position: relative;
+     top: 37px;
+}
+.s-bb a{
+    color: black;
+    position: relative;
+     top: 20px;
+}.s-cc a{
+    color: rg black;
+    position: relative;
+     top: 37px;
+}
+/* ------ */
+.s-aa a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+.s-bb a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}.s-cc a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}.s-dd a:hover{
+    color: white;
+    background-color: black;
+    text-decoration: none;
+}
+/* ----------- */
+.last-part{
+    height: 70vh;
+    width: 100%;
+    background-color: #F5F5E5;
+    display: flex;
+    margin-top: 100px;
+}
+
+.last-part h1{
+    font-size: 30px;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.last-part p{
+    
+    padding-top: 20px;
+    margin-left: 50px;
+}
+/* --------- */
+.off-part{
+    height: 20vh;
+    width: 100%;
+    background-color: #EDE734;
+}
+.off-part h1{
+    display: flex;
+    justify-content: center;
+    padding-right: 300px;
+    padding-top: 35px;
+}
+.off-part button{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 17%;
+    font-size: 18px;
+    margin-left: 820px;
+    position: relative;
+    bottom: 40px;
+}
+.off-part button:hover{
+    color: gray;
+    transition: all ease-in-out0.3s;
+    cursor: pointer;
+}
+/* ------------ */
+.footer-part{
+    display: flex;
+    cursor: pointer;
+    height: 60vh;
+    width: 100%;
+    gap: 50px;
+    justify-content: center;
+}
+.footer-part h2{
+    font-size: 20px;
+    margin-top: 50px;
+}
+.footer-part p{
+    margin-top: 20px;
+}
+.last-footer{
+    height: 18vh;
+    width: 100%;
+    background-color: #282C31;
+    margin-top: 100px;
+}
+.last-footer p{
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.last-footer h1{
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.btn_2 button:hover{
+    background-color: black;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        margin-left: 0; 
+    }
+    .navbar img {
+        position: static; 
+        right: auto;
+        bottom: auto;
+    }
+    .navbar {
+        font-size: 12px; 
+    }
+    .navbar {
+        flex-direction: column; /* Navbar ko vertical layout mein convert karein */
+        align-items: center; /* Items ko center align karein */
+    }
+    img {
+        max-width: 100%; /* Images ko full width par stretch karein */
+        height: auto; /* Aspect ratio ko maintain karein */
+    }
+    .navbar {
+        margin-left: 0; /* Navbar ki margin ko remove karein */
+    }
+    .navbar img {
+        position: static; /* Image ki position ko static kar dein */
+        right: auto;
+        bottom: auto;
+    }
+    .navbar {
+        font-size: 12px; /* Navbar ka font size ko chhota karein */
+    }
+    .navbar {
+        flex-direction: column; /* Navbar ko vertical layout mein convert karein */
+        align-items: center;
+    }
+    img {
+        max-width: 100%; /* Images ko full width par stretch karein */
+        height: auto; /* Aspect ratio ko maintain karein */
+    }
+    .navbar {
+        margin-left: 0;
+    }
+
+    /* Image ki position ko static kar dein */
+    .navbar img {
+        position: static;
+        right: auto;
+        bottom: auto;
+    }
+
+    /* Navbar ka font size ko chhota karein */
+    .navbar {
+        font-size: 12px;
+    }
+
+    /* Navbar ko vertical layout mein convert karein */
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Images ko full width par stretch karein */
+    img {
+        max-width: 100%;
+        height: auto; /* Aspect ratio ko maintain karein */
+    }
+
+    /* Add more styles for other elements as needed */
+}
